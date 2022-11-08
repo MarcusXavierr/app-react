@@ -1,0 +1,12 @@
+.formControl {
+  font-weight: 600;
+  text-align: left;
+  margin: 1rem 0.5rem;
+  font-size: 1.2rem;
+}
+
+.formControl input {
+  width: 100%;
+  line-height: 2rem;
+  font-size: 1.1rem;
+}

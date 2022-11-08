@@ -1,0 +1,10 @@
+.card {
+  max-width: 960px;
+  margin: auto;
+  padding: 1rem;
+  background-color: #fff;
+  width: 100%;
+  display: block;
+  border-radius: 0.5rem;
+  box-shadow: 0 5px 1rem rgba(200, 200, 200, 0.2);
+}
