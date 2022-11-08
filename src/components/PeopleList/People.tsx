@@ -16,6 +16,7 @@ function renderPeople(users: User[], onclick: (userId: number) => void): JSX.Ele
   return (
     <div style={{ marginTop: '1rem' }}>
       <Card>
+        <h3>Clique em uma pessoa para apagar ela</h3>
         {users.map(user => (
           <Person user={user} onClick={onclick}/>
         ))}

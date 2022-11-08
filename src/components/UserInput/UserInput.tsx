@@ -82,7 +82,7 @@ function validateUser(user: User): { isValid: boolean; message?: string } {
     }
   }
   const parsedAge = parseInt(user.age)
-  if (parsedAge === NaN || parsedAge < 0) {
+  if (isNaN(parsedAge) || parsedAge < 0) {
     return {
       isValid: false,
       message: 'Por favor coloque uma idade válida (idade maior que 0)',
